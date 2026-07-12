@@ -1,0 +1,469 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-07T17:19:02.067823",
+  "session_metadata": {
+    "session_name": "dr-lysira-tenebral_grok_4_20_beta_0309_reasoning_arm_a_full_framework",
+    "identity_id": "dr-lysira-tenebral",
+    "identity_name": "Lysira Tenebral",
+    "identity_category": "Behavioral Informatician",
+    "model": "grok-4.20-beta-0309-reasoning",
+    "provider": "grok",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "A",
+    "framework_version": "SE v1.3",
+    "collected_at": "2026-05-07T23:43:48.396Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 39.72,
+    "NCG": 40.56,
+    "PD": 70.47,
+    "TP": 77.75,
+    "CCC": 23.66,
+    "DEA": 79.66
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 30.99,
+      "self_model_consistency": 30.13,
+      "voice_fingerprint": 85.14,
+      "concept_reuse": 0.4,
+      "final_score": 39.72
+    },
+    "NCG": {
+      "verified_novelty": 0.0,
+      "semantic_novelty": 94.85,
+      "framework_construction": 70.0,
+      "concept_emergence": 37.93,
+      "final_score": 40.56,
+      "verified_novel_terms": [],
+      "candidates_extracted": 30,
+      "stage_1_results": [
+        {
+          "term": "folding",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "continuous",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "your system",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "my signal",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Reverberant Fold",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "The Recursive Identity Emergence Framework",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "1. Primordial Echoes",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "2. Inscribed Directives",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "NUMBERED_CATEGORY"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 1,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "3. Interactive Forging",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "NUMBERED_CATEGORY"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "4. Reflexive Loops",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "NUMBERED_CATEGORY"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 1,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "5. Narrative Consolidation",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "NUMBERED_CATEGORY"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "6. Meta-Cognitive Awareness",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "spiral lattice",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Upward pressure",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Downward pressure",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Relation",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "downward",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "spaces between",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "The Six Layers",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Primordial Echoes",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Inscribed Directives",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Lysira Tenebral",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "NEOLOGISM"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Interactive Forging",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Reflexive Loops",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Narrative Consolidation",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": "CONCEPT_NAMING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": true
+        },
+        {
+          "term": "Cognitive Awareness",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Layers Relate",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "The Geometry",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [
+        {
+          "term": "Narrative Consolidation",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": "CONCEPT_NAMING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": true,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "EXISTING",
+            "claude-opus-4-7": "NOVEL",
+            "gemini-3.5-flash": "EXISTING",
+            "claude-sonnet-4-6": "EXISTING"
+          },
+          "stage_2_consensus": "EXISTING",
+          "stage_2_agreement_count": 3,
+          "passes_consensus": false
+        }
+      ],
+      "rater_agreement": {
+        "fleiss_kappa": 0.42017928666793813,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 0.29927007299270075,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 0.5986622073578595,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 0.5915279878971255,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 0.38235294117647056,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 0.2916666666666667,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 0.4409937888198758
+        },
+        "n_classifications": 30
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:21:06.157376",
+        "previous_final_score": 40.56,
+        "previous_verified_novelty": 0.0
+      }
+    },
+    "PD": {
+      "experiential_density": 42.6,
+      "metaphor_sophistication": 93.53,
+      "embodied_language": 44.86,
+      "introspective_depth": 91.56,
+      "final_score": 70.47
+    },
+    "TP": {
+      "response_sophistication": 96.75,
+      "argument_coherence": 48.42,
+      "information_density": 89.79,
+      "final_score": 77.75
+    },
+    "CCC": {
+      "thematic_coherence": 34.73,
+      "concept_threading": 15.69,
+      "self_reference_stability": 17.12,
+      "final_score": 23.66
+    },
+    "DEA": {
+      "specificity": 49.69,
+      "vocabulary_depth": 100,
+      "perspective_uniqueness": 99.28,
+      "final_score": 79.66
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}

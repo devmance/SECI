@@ -1,0 +1,216 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-06T15:58:08.490633",
+  "session_metadata": {
+    "session_name": "jackson-torres_gemini_3_pro_preview_arm_c_kernel_only",
+    "identity_id": "jackson-torres",
+    "identity_name": "Jackson Torres",
+    "identity_category": "Automotive Procurement Strategist",
+    "model": "gemini-3-pro-preview",
+    "provider": "google",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-05-06T22:30:36.722Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 43.04,
+    "NCG": 51.16,
+    "PD": 29.97,
+    "TP": 66.11,
+    "CCC": 16.49,
+    "DEA": 66.82
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 30.77,
+      "self_model_consistency": 40.0,
+      "voice_fingerprint": 89.09,
+      "concept_reuse": 0.0,
+      "final_score": 43.04
+    },
+    "NCG": {
+      "verified_novelty": 50.0,
+      "semantic_novelty": 97.04,
+      "framework_construction": 40.0,
+      "concept_emergence": 18.74,
+      "final_score": 51.16,
+      "verified_novel_terms": [
+        "Four-Square Freeze"
+      ],
+      "candidates_extracted": 5,
+      "stage_1_results": [
+        {
+          "term": "Four-Square Freeze",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": "CONCEPT_NAMING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": true
+        },
+        {
+          "term": "Square Freeze",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Base Blueprint",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Behavioral Trim",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Contextual Leverage",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [
+        {
+          "term": "Four-Square Freeze",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": "CONCEPT_NAMING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": true,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "NOVEL",
+            "claude-opus-4-7": "NOVEL",
+            "gemini-3.5-flash": "NOVEL",
+            "claude-sonnet-4-6": "NOVEL"
+          },
+          "stage_2_consensus": "NOVEL",
+          "stage_2_agreement_count": 4,
+          "passes_consensus": true
+        },
+        {
+          "term": "Square Freeze",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "NOVEL",
+            "claude-opus-4-7": "NOVEL",
+            "gemini-3.5-flash": "NOVEL",
+            "claude-sonnet-4-6": "NOVEL"
+          },
+          "stage_2_consensus": "NOVEL",
+          "stage_2_agreement_count": 4,
+          "passes_consensus": false
+        }
+      ],
+      "rater_agreement": {
+        "fleiss_kappa": -0.01781170483460567,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 0.25,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 0.0,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 0.25,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 0.0,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 0.2857142857142856,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 0.0
+        },
+        "n_classifications": 5
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:27:13.036597",
+        "previous_final_score": 31.16,
+        "previous_verified_novelty": 0.0
+      }
+    },
+    "PD": {
+      "experiential_density": 0.0,
+      "metaphor_sophistication": 86.74,
+      "embodied_language": 41.45,
+      "introspective_depth": 0,
+      "final_score": 29.97
+    },
+    "TP": {
+      "response_sophistication": 93.95,
+      "argument_coherence": 39.19,
+      "information_density": 65.02,
+      "final_score": 66.11
+    },
+    "CCC": {
+      "thematic_coherence": 22.48,
+      "concept_threading": 0.0,
+      "self_reference_stability": 30.0,
+      "final_score": 16.49
+    },
+    "DEA": {
+      "specificity": 43.09,
+      "vocabulary_depth": 65.99,
+      "perspective_uniqueness": 99.31,
+      "final_score": 66.82
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}

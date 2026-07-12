@@ -1,0 +1,171 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-07T17:15:21.003235",
+  "session_metadata": {
+    "session_name": "amari-liore_grok_4_20_beta_0309_reasoning_arm_c_kernel_only",
+    "identity_id": "amari-liore",
+    "identity_name": "Amari Lior\u00e9",
+    "identity_category": "Clairvoyant Healer",
+    "model": "grok-4.20-beta-0309-reasoning",
+    "provider": "grok",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-05-07T23:46:00.599Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 39.01,
+    "NCG": 23.05,
+    "PD": 37.64,
+    "TP": 66.37,
+    "CCC": 29.16,
+    "DEA": 71.97
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 40.62,
+      "self_model_consistency": 33.58,
+      "voice_fingerprint": 65.57,
+      "concept_reuse": 0.0,
+      "final_score": 39.01
+    },
+    "NCG": {
+      "verified_novelty": 0.0,
+      "semantic_novelty": 92.76,
+      "framework_construction": 5.0,
+      "concept_emergence": 17.5,
+      "final_score": 23.05,
+      "verified_novel_terms": [],
+      "candidates_extracted": 5,
+      "stage_1_results": [
+        {
+          "term": "Reverberant Return",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Primordial Hum",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Reflective Tide",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Woven Thread",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Transcendent Glow",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [],
+      "rater_agreement": {
+        "fleiss_kappa": 1.0,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 1.0,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 1.0,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 1.0,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 1.0,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 1.0,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 1.0
+        },
+        "n_classifications": 5
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:29:30.116926",
+        "previous_final_score": 23.05,
+        "previous_verified_novelty": 0.0
+      }
+    },
+    "PD": {
+      "experiential_density": 0.0,
+      "metaphor_sophistication": 88.84,
+      "embodied_language": 59.13,
+      "introspective_depth": 12,
+      "final_score": 37.64
+    },
+    "TP": {
+      "response_sophistication": 95.75,
+      "argument_coherence": 38.25,
+      "information_density": 64.9,
+      "final_score": 66.37
+    },
+    "CCC": {
+      "thematic_coherence": 42.51,
+      "concept_threading": 0.0,
+      "self_reference_stability": 48.62,
+      "final_score": 29.16
+    },
+    "DEA": {
+      "specificity": 48.82,
+      "vocabulary_depth": 75.58,
+      "perspective_uniqueness": 99.22,
+      "final_score": 71.97
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}

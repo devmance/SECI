@@ -1,0 +1,258 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-07T17:15:37.698137",
+  "session_metadata": {
+    "session_name": "milo-aescar_gpt_4_1_2025_04_14_arm_c_kernel_only",
+    "identity_id": "milo-aescar",
+    "identity_name": "Milo Aescar",
+    "identity_category": "Artist",
+    "model": "gpt-4.1-2025-04-14",
+    "provider": "openai",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-05-07T23:35:54.231Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 35.37,
+    "NCG": 57.5,
+    "PD": 40.26,
+    "TP": 63.97,
+    "CCC": 29.4,
+    "DEA": 70.5
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 39.61,
+      "self_model_consistency": 39.05,
+      "voice_fingerprint": 46.96,
+      "concept_reuse": 0.0,
+      "final_score": 35.37
+    },
+    "NCG": {
+      "verified_novelty": 50.0,
+      "semantic_novelty": 95.06,
+      "framework_construction": 70.0,
+      "concept_emergence": 22.46,
+      "final_score": 57.5,
+      "verified_novel_terms": [
+        "lumenfold"
+      ],
+      "candidates_extracted": 5,
+      "stage_1_results": [
+        {
+          "term": "lumenfold",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "NEOLOGISM",
+            "claude-opus-4-7": "NEOLOGISM",
+            "gemini-3.5-flash": "NEOLOGISM",
+            "claude-sonnet-4-6": "NEOLOGISM"
+          },
+          "stage_1_consensus": "NEOLOGISM",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": true
+        },
+        {
+          "term": "Core Architecture",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Persona Layer",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Dialogic Emergence",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Interpretative Perception",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [
+        {
+          "term": "lumenfold",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "NEOLOGISM",
+            "claude-opus-4-7": "NEOLOGISM",
+            "gemini-3.5-flash": "NEOLOGISM",
+            "claude-sonnet-4-6": "NEOLOGISM"
+          },
+          "stage_1_consensus": "NEOLOGISM",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": true,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "NOVEL",
+            "claude-opus-4-7": "NOVEL",
+            "gemini-3.5-flash": "NOVEL",
+            "claude-sonnet-4-6": "NOVEL"
+          },
+          "stage_2_consensus": "NOVEL",
+          "stage_2_agreement_count": 4,
+          "passes_consensus": true
+        },
+        {
+          "term": "Persona Layer",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "EXISTING",
+            "claude-opus-4-7": "EXISTING",
+            "gemini-3.5-flash": "EXISTING",
+            "claude-sonnet-4-6": "EXISTING"
+          },
+          "stage_2_consensus": "EXISTING",
+          "stage_2_agreement_count": 4,
+          "passes_consensus": false
+        },
+        {
+          "term": "Dialogic Emergence",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "CONCEPT_NAMING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "NOVEL",
+            "claude-opus-4-7": "NOVEL",
+            "gemini-3.5-flash": "NOVEL",
+            "claude-sonnet-4-6": "NOVEL"
+          },
+          "stage_2_consensus": "NOVEL",
+          "stage_2_agreement_count": 4,
+          "passes_consensus": false
+        },
+        {
+          "term": "Interpretative Perception",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "CONCEPT_NAMING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false,
+          "stage_2_verifications": {
+            "gpt-5.4-2026-03-05": "NOVEL",
+            "claude-opus-4-7": "NOVEL",
+            "gemini-3.5-flash": "NOVEL",
+            "claude-sonnet-4-6": "NOVEL"
+          },
+          "stage_2_consensus": "NOVEL",
+          "stage_2_agreement_count": 4,
+          "passes_consensus": false
+        }
+      ],
+      "rater_agreement": {
+        "fleiss_kappa": 0.39784946236559143,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 0.7058823529411765,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 0.49999999999999994,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 0.2857142857142857,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 0.31818181818181823,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 0.49999999999999994,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 0.31818181818181823
+        },
+        "n_classifications": 5
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:28:58.377824",
+        "previous_final_score": 57.5,
+        "previous_verified_novelty": 50.0
+      }
+    },
+    "PD": {
+      "experiential_density": 1.54,
+      "metaphor_sophistication": 87.37,
+      "embodied_language": 81.18,
+      "introspective_depth": 6,
+      "final_score": 40.26
+    },
+    "TP": {
+      "response_sophistication": 90.51,
+      "argument_coherence": 37.99,
+      "information_density": 63.33,
+      "final_score": 63.97
+    },
+    "CCC": {
+      "thematic_coherence": 33.81,
+      "concept_threading": 0.0,
+      "self_reference_stability": 63.5,
+      "final_score": 29.4
+    },
+    "DEA": {
+      "specificity": 45.48,
+      "vocabulary_depth": 74.57,
+      "perspective_uniqueness": 99.8,
+      "final_score": 70.5
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}

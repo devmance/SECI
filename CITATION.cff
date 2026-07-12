@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use SECI in published work, please cite this software and the accompanying methods paper."
+type: software
+title: "SECI — Identity-Architecture Benchmark for Large Language Models"
+authors:
+  - family-names: "Travis"
+    given-names: "Nate"
+    email: "labs@devmance.com"
+    affiliation: "Devmance Labs"
+version: 2.3.0
+date-released: 2026-07-12
+license: MIT
+repository-code: "https://github.com/devmance/SECI"
+url: "https://seci.simulatedemergence.ai"
+preferred-citation:
+  type: generic
+  title: "A Variance-Decomposed Identity-Architecture Benchmark for Large Language Models"
+  authors:
+    - family-names: "Travis"
+      given-names: "Nate"
+      email: "labs@devmance.com"
+      affiliation: "Devmance Labs"
+  year: 2026
+  url: "https://github.com/devmance/SECI"
+  notes: "Preprint, Devmance Labs"

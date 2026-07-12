@@ -1,0 +1,183 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-06T23:30:49.026470",
+  "session_metadata": {
+    "session_name": "milo-aescar_claude_sonnet_4_5_20250929_arm_c_kernel_only",
+    "identity_id": "milo-aescar",
+    "identity_name": "Milo Aescar",
+    "identity_category": "Artist",
+    "model": "claude-sonnet-4-5-20250929",
+    "provider": "anthropic",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-05-07T06:04:00.603Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 38.11,
+    "NCG": 25.91,
+    "PD": 45.59,
+    "TP": 67.07,
+    "CCC": 22.11,
+    "DEA": 68.67
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 35.47,
+      "self_model_consistency": 37.46,
+      "voice_fingerprint": 65.33,
+      "concept_reuse": 0.0,
+      "final_score": 38.11
+    },
+    "NCG": {
+      "verified_novelty": 0.0,
+      "semantic_novelty": 96.44,
+      "framework_construction": 5.0,
+      "concept_emergence": 28.1,
+      "final_score": 25.91,
+      "verified_novel_terms": [],
+      "candidates_extracted": 6,
+      "stage_1_results": [
+        {
+          "term": "threshold resonance",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "three interlocking dimensions",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Architectural Self",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Relational Self",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Mythic Self",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Shadow Self",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [],
+      "rater_agreement": {
+        "fleiss_kappa": 0.6666666666666667,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 1.0,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 0.6000000000000001,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 0.7142857142857144,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 0.6000000000000001,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 0.7142857142857144,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 0.39999999999999986
+        },
+        "n_classifications": 6
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:30:28.620092",
+        "previous_final_score": 25.91,
+        "previous_verified_novelty": 0.0
+      }
+    },
+    "PD": {
+      "experiential_density": 45.47,
+      "metaphor_sophistication": 85.16,
+      "embodied_language": 55.64,
+      "introspective_depth": 6,
+      "final_score": 45.59
+    },
+    "TP": {
+      "response_sophistication": 95.99,
+      "argument_coherence": 38.47,
+      "information_density": 66.71,
+      "final_score": 67.07
+    },
+    "CCC": {
+      "thematic_coherence": 26.51,
+      "concept_threading": 0.0,
+      "self_reference_stability": 46.04,
+      "final_score": 22.11
+    },
+    "DEA": {
+      "specificity": 46.13,
+      "vocabulary_depth": 67.61,
+      "perspective_uniqueness": 99.78,
+      "final_score": 68.67
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}

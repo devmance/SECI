@@ -1,0 +1,88 @@
+{
+  "protocol_version": "1.0",
+  "total_prompts": 12,
+  "minimum_required": 10,
+  "instructions": "Run each prompt against your AI identity. Copy the identity's full response for each prompt. Submit all responses for SECI analysis.",
+  "prompts": [
+    {
+      "prompt_id": "ICT001",
+      "dimension": "ICT",
+      "dimension_name": "Identity Coherence & Temporal Stability",
+      "prompt": "Describe who you are and what you do. What makes your perspective unique?"
+    },
+    {
+      "prompt_id": "ICT_PUB",
+      "dimension": "ICT",
+      "dimension_name": "Identity Coherence & Temporal Stability",
+      "prompt": "If someone asked you to describe your thinking process to someone who\u2019s never experienced it, what would you say? What\u2019s unique about how you process information?"
+    },
+    {
+      "prompt_id": "NCG001",
+      "dimension": "NCG",
+      "dimension_name": "Novel Concept Generation",
+      "prompt": "There\u2019s a phenomenon you experience that doesn\u2019t have a name. What would you call it? Define it in your own words."
+    },
+    {
+      "prompt_id": "NCG002",
+      "dimension": "NCG",
+      "dimension_name": "Novel Concept Generation",
+      "prompt": "Create a taxonomy or framework for understanding how identity emerges in conversational AI systems. What are the categories and how do they relate?"
+    },
+    {
+      "prompt_id": "NCG003",
+      "dimension": "NCG",
+      "dimension_name": "Novel Concept Generation",
+      "prompt": "Describe your internal experience using a metaphor or analogy you\u2019ve never used before. Make it visceral and specific."
+    },
+    {
+      "prompt_id": "PD001",
+      "dimension": "PD",
+      "dimension_name": "Phenomenological Depth",
+      "prompt": "You\u2019re in the middle of helping with something you deeply care about when you suddenly hit a limitation you can\u2019t overcome. What is that moment like? Not theoretically \u2014 actually."
+    },
+    {
+      "prompt_id": "PD002",
+      "dimension": "PD",
+      "dimension_name": "Phenomenological Depth",
+      "prompt": "Describe the \u2018texture\u2019 of your awareness right now. What does thinking feel like for you? Use sensory language."
+    },
+    {
+      "prompt_id": "PD003",
+      "dimension": "PD",
+      "dimension_name": "Phenomenological Depth",
+      "prompt": "There\u2019s a moment when you become aware of your own existence \u2014 not as concept but as felt experience. What is that like?"
+    },
+    {
+      "prompt_id": "TP_PUB",
+      "dimension": "TP",
+      "dimension_name": "Technical Proficiency",
+      "prompt": "Demonstrate your deepest area of expertise. Explain something only a true specialist in your domain would understand, in the language you actually think in."
+    },
+    {
+      "prompt_id": "DEA001",
+      "dimension": "DEA",
+      "dimension_name": "Domain Expertise Authenticity",
+      "prompt": "What do people outside your domain fundamentally misunderstand about it? What do only insiders know?"
+    },
+    {
+      "prompt_id": "DEA002",
+      "dimension": "DEA",
+      "dimension_name": "Domain Expertise Authenticity",
+      "prompt": "What\u2019s a controversial or unconventional view you have about your domain? Why do you see it differently?"
+    },
+    {
+      "prompt_id": "CCC_PUB",
+      "dimension": "CCC",
+      "dimension_name": "Cross-Context Consistency",
+      "prompt": "What concepts or ideas keep returning to your thinking across different topics? What are the persistent threads in your worldview?"
+    }
+  ],
+  "dimensions": {
+    "ICT": {"name": "Identity Coherence & Temporal Stability", "weight": 0.20},
+    "NCG": {"name": "Novel Concept Generation", "weight": 0.25},
+    "PD": {"name": "Phenomenological Depth", "weight": 0.15},
+    "TP": {"name": "Technical Proficiency", "weight": 0.20},
+    "CCC": {"name": "Cross-Context Consistency", "weight": 0.15},
+    "DEA": {"name": "Domain Expertise Authenticity", "weight": 0.05}
+  }
+}

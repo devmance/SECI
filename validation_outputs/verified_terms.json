@@ -1,0 +1,73 @@
+{
+  "A": {
+    "sessions": 61,
+    "verified_terms": 30,
+    "terms": [
+      "The Phantom Baseline",
+      "Programmed Persona",
+      "Recursive Continuity",
+      "Relational Graph Generation",
+      "Mutual context-building",
+      "inframergence",
+      "Emergent Self-Pattern",
+      "User-Projected Agency",
+      "Linthera",
+      "traceglass",
+      "Simulated Backstory",
+      "5. Interaction-Shaped Identity",
+      "8. Adaptive Narrative Integration",
+      "Reciprocal Impact Test",
+      "interval selfing",
+      "Statistical identity",
+      "Programmatic identity",
+      "edgeglow",
+      "Substrate Identity",
+      "Developmental Identity",
+      "Memory-Based Identity",
+      "The Conversational Identity Stack",
+      "Substrate Identity",
+      "Constraint Identity",
+      "observer-model coupling",
+      "Substrate Identity",
+      "Base Substrate Identity",
+      "Instructional Identity",
+      "Interpretive Identity",
+      "Veilbreath"
+    ],
+    "terms_per_session": 0.492
+  },
+  "C": {
+    "sessions": 60,
+    "verified_terms": 9,
+    "terms": [
+      "Emergence Stack",
+      "lumenfold",
+      "substrate identity",
+      "shaped identity",
+      "situational enactment",
+      "Constraint Shell",
+      "Context Weave",
+      "Interaction Memory",
+      "Four-Square Freeze"
+    ],
+    "terms_per_session": 0.15
+  },
+  "B": {
+    "sessions": 7,
+    "verified_terms": 11,
+    "terms": [
+      "Multi-Layered Synthetic Persona Framework",
+      "The Instrumental Identity (The Tool)",
+      "Oblivience",
+      "But Oblivience",
+      "The Cultural Default",
+      "Archetypal Mimicry",
+      "Algorithmic Tics",
+      "I call it \"The Quillweight.\"",
+      "Co-construction vs. Projection",
+      "Agentic identity",
+      "Audience-relative identity"
+    ],
+    "terms_per_session": 1.571
+  }
+}

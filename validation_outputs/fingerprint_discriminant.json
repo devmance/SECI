@@ -1,0 +1,9 @@
+{
+  "within_identity_mean_r": 0.8445519885963866,
+  "within_identity_n_pairs": 107,
+  "within_identity_pct_above_0.7": 83.17757009345794,
+  "between_identity_mean_r": 0.858736198123664,
+  "between_identity_n_pairs": 1246,
+  "between_identity_pct_above_0.7": 85.87479935794543,
+  "identity_signal_present": false
+}

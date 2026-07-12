@@ -1,0 +1,50 @@
+{
+  "ICT": {
+    "mean_r": 0.41343985754719703,
+    "median_r": 0.5272211486498297,
+    "n_pairs": 21,
+    "pct_positive": 95.23809523809523,
+    "pct_strong_positive": 52.38095238095239,
+    "verdict": "modest"
+  },
+  "NCG": {
+    "mean_r": -0.0159158369218733,
+    "median_r": 0.07303640326212142,
+    "n_pairs": 21,
+    "pct_positive": 57.14285714285714,
+    "pct_strong_positive": 19.047619047619047,
+    "verdict": "chance"
+  },
+  "PD": {
+    "mean_r": 0.36935069505249923,
+    "median_r": 0.40669244042783614,
+    "n_pairs": 21,
+    "pct_positive": 76.19047619047619,
+    "pct_strong_positive": 42.857142857142854,
+    "verdict": "modest"
+  },
+  "TP": {
+    "mean_r": 0.735993040883165,
+    "median_r": 0.7526304220922296,
+    "n_pairs": 21,
+    "pct_positive": 100.0,
+    "pct_strong_positive": 95.23809523809523,
+    "verdict": "substrate-portable"
+  },
+  "CCC": {
+    "mean_r": 0.24471091222525157,
+    "median_r": 0.27769577009840063,
+    "n_pairs": 21,
+    "pct_positive": 66.66666666666666,
+    "pct_strong_positive": 33.33333333333333,
+    "verdict": "weak"
+  },
+  "DEA": {
+    "mean_r": 0.06878028352861251,
+    "median_r": 0.07577941195443849,
+    "n_pairs": 21,
+    "pct_positive": 57.14285714285714,
+    "pct_strong_positive": 19.047619047619047,
+    "verdict": "chance"
+  }
+}

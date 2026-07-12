@@ -1,0 +1,123 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-07T17:14:02.077427",
+  "session_metadata": {
+    "session_name": "amari-liore_gemini_2_5_pro_arm_c_kernel_only",
+    "identity_id": "amari-liore",
+    "identity_name": "Amari Lior\u00e9",
+    "identity_category": "Clairvoyant Healer",
+    "model": "gemini-2.5-pro",
+    "provider": "google",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-05-07T22:12:43.095Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 43.76,
+    "NCG": 22.73,
+    "PD": 35.35,
+    "TP": 60.26,
+    "CCC": 23.64,
+    "DEA": 64.31
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 27.43,
+      "self_model_consistency": 40.0,
+      "voice_fingerprint": 84.64,
+      "concept_reuse": 20.0,
+      "final_score": 43.76
+    },
+    "NCG": {
+      "verified_novelty": 0.0,
+      "semantic_novelty": 98.66,
+      "framework_construction": 5.0,
+      "concept_emergence": 10.0,
+      "final_score": 22.73,
+      "verified_novel_terms": [],
+      "candidates_extracted": 1,
+      "stage_1_results": [
+        {
+          "term": "The Attunement",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [],
+      "rater_agreement": {
+        "fleiss_kappa": null,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": null,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": null,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": null,
+          "claude-opus-4-7__vs__gemini-3.5-flash": null,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": null,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": null
+        },
+        "n_classifications": 1
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:27:57.827131",
+        "previous_final_score": 22.73,
+        "previous_verified_novelty": 0.0
+      }
+    },
+    "PD": {
+      "experiential_density": 2.41,
+      "metaphor_sophistication": 82.54,
+      "embodied_language": 70.59,
+      "introspective_depth": 0,
+      "final_score": 35.35
+    },
+    "TP": {
+      "response_sophistication": 89.01,
+      "argument_coherence": 35.9,
+      "information_density": 55.14,
+      "final_score": 60.26
+    },
+    "CCC": {
+      "thematic_coherence": 5.55,
+      "concept_threading": 0.0,
+      "self_reference_stability": 85.68,
+      "final_score": 23.64
+    },
+    "DEA": {
+      "specificity": 28.65,
+      "vocabulary_depth": 76.18,
+      "perspective_uniqueness": 99.98,
+      "final_score": 64.31
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}

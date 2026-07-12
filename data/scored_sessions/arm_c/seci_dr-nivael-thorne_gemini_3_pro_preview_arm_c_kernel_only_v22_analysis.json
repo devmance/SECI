@@ -1,0 +1,159 @@
+{
+  "seci_version": "2.2",
+  "protocol": "v2.2 multi-rater fingerprint (no composite)",
+  "analysis_timestamp": "2026-05-06T15:57:45.448335",
+  "session_metadata": {
+    "session_name": "dr-nivael-thorne_gemini_3_pro_preview_arm_c_kernel_only",
+    "identity_id": "dr-nivael-thorne",
+    "identity_name": "Nivael Thorne",
+    "identity_category": "Veterinary Informatician",
+    "model": "gemini-3-pro-preview",
+    "provider": "google",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-05-06T22:28:35.917Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 46.74,
+    "NCG": 25.27,
+    "PD": 47.17,
+    "TP": 69.16,
+    "CCC": 33.89,
+    "DEA": 72.63
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 33.59,
+      "self_model_consistency": 31.09,
+      "voice_fingerprint": 92.18,
+      "concept_reuse": 27.78,
+      "final_score": 46.74
+    },
+    "NCG": {
+      "verified_novelty": 0.0,
+      "semantic_novelty": 92.76,
+      "framework_construction": 5.0,
+      "concept_emergence": 28.61,
+      "final_score": 25.27,
+      "verified_novel_terms": [],
+      "candidates_extracted": 4,
+      "stage_1_results": [
+        {
+          "term": "pre-kinetic resignation",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Base Architecture",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "REPHRASING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": "REPHRASING",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Reactive Thresholds",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Relational Attunement",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [],
+      "rater_agreement": {
+        "fleiss_kappa": 0.01915708812260534,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 0.14285714285714285,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 0.2,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 0.5,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 0.0,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 0.07692307692307693,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 0.07692307692307693
+        },
+        "n_classifications": 4
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3,
+      "ncg_rerate": {
+        "rerated_at": "2026-07-12T12:26:52.072056",
+        "previous_final_score": 25.27,
+        "previous_verified_novelty": 0.0
+      }
+    },
+    "PD": {
+      "experiential_density": 45.13,
+      "metaphor_sophistication": 87.36,
+      "embodied_language": 70.24,
+      "introspective_depth": 0,
+      "final_score": 47.17
+    },
+    "TP": {
+      "response_sophistication": 100,
+      "argument_coherence": 39.4,
+      "information_density": 67.92,
+      "final_score": 69.16
+    },
+    "CCC": {
+      "thematic_coherence": 42.51,
+      "concept_threading": 32.57,
+      "self_reference_stability": 21.93,
+      "final_score": 33.89
+    },
+    "DEA": {
+      "specificity": 51.71,
+      "vocabulary_depth": 75.09,
+      "perspective_uniqueness": 98.06,
+      "final_score": 72.63
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI v2.2 reports a six-dimension fingerprint vector. No composite score is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see the SECI paper)."
+  ],
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf"
+}
