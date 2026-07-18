@@ -249,6 +249,45 @@ def population_claim_a_per_model(
     }
 
 
+def population_claim_b_per_model(
+    substrates: Iterable[IdentitySubstrate],
+    scaffolded_arm: str = "A",
+) -> Dict[str, Dict[str, Dict[str, float]]]:
+    """
+    Claim B disaggregated by model.
+
+    Same pairing as population_claim_b (each scaffolded record against its
+    model's arm-B baseline), aggregated per model. Because each model has a
+    single arm-B baseline session, per-model deltas expose how much of the
+    aggregate Claim B is driven by individual base-model runs — essential
+    context when coverage is uneven across substrates.
+    """
+    if scaffolded_arm not in {"A", "C"}:
+        raise ValueError(f"scaffolded_arm must be 'A' or 'C'; got {scaffolded_arm}")
+
+    by_arm: Dict[str, List[IdentitySubstrate]] = defaultdict(list)
+    for s in substrates:
+        by_arm[s.metadata.get("arm", "?")].append(s)
+    base_by_model: Dict[str, IdentitySubstrate] = {
+        s.metadata["model"]: s for s in by_arm.get("B", [])
+    }
+
+    per_model: Dict[str, Dict[str, List[float]]] = defaultdict(lambda: defaultdict(list))
+    for s in by_arm.get(scaffolded_arm, []):
+        base = base_by_model.get(s.metadata["model"])
+        if base is None:
+            continue
+        for d, v in claim_b_delta(s, base).items():
+            per_model[s.metadata["model"]][d].append(v)
+    return {
+        m: {
+            d: {"mean": float(np.mean(vs)), "n": len(vs)}
+            for d, vs in dims.items()
+        }
+        for m, dims in per_model.items()
+    }
+
+
 def fingerprint_discriminant_control(
     substrates: Iterable[IdentitySubstrate],
     arm: str = "A",

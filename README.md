@@ -79,8 +79,8 @@ examples/
 data/scored_sessions/  — the full scored dataset: 128 per-session fingerprint JSONs
                          (61 arm_a / 60 arm_c / 7 arm_b; see data/scored_sessions/DATA_README.md)
 validation_outputs/    — analysis outputs on the reference dataset (claim A/B/C, per-model
-                         claim A, variance decomposition, fingerprint stability + discriminant
-                         control, verified-term counts, warning flags)
+                         claim A and claim B, variance decomposition, fingerprint stability +
+                         discriminant control, verified-term counts, warning flags)
   claim_a_population.json
   claim_b_population.json
   claim_c_cross_model.json

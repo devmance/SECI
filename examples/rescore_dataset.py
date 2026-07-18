@@ -6,10 +6,14 @@ Walks all SECI analysis JSONs at the configured path, loads them as
 LLMSubstrate instances, and produces:
 
   - claim_a_population.json     — arm_a vs arm_c, framework contribution
+  - claim_a_per_model.json      — claim A disaggregated by model
   - claim_b_population.json     — arm_a vs arm_b, base-model null
+  - claim_b_per_model.json      — claim B disaggregated by model (single-baseline sensitivity)
   - claim_c_cross_model.json    — per-dimension cross-model identity rankings
   - variance_decomposition.json — between-identity vs between-model SD
   - fingerprint_stability.json  — per-identity 6-D fingerprint r across models
+  - fingerprint_discriminant.json — within- vs between-identity control
+  - verified_terms.json         — consensus-verified novel term counts per arm
   - warning_flags.json          — auto-generated diagnostic warnings
 
 Usage:
@@ -36,6 +40,7 @@ from seci.analysis import (
     population_claim_a,
     population_claim_a_per_model,
     population_claim_b,
+    population_claim_b_per_model,
     claim_c_cross_model_ranking,
     per_identity_fingerprint_stability,
     fingerprint_discriminant_control,
@@ -139,6 +144,10 @@ def main():
     # ----- Claim B: base-model null (arm_a vs arm_b) -------------------
     claim_b = population_claim_b(substrates, scaffolded_arm="A")
     write_json(out / "claim_b_population.json", claim_b)
+
+    # ----- Claim B per model (single-baseline sensitivity) --------------
+    claim_b_per_model = population_claim_b_per_model(substrates, scaffolded_arm="A")
+    write_json(out / "claim_b_per_model.json", claim_b_per_model)
 
     # ----- Claim C: cross-model identity ranking -----------------------
     claim_c = claim_c_cross_model_ranking(substrates, arm="A")
