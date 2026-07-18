@@ -130,6 +130,25 @@ def population_claim_a(substrates: Iterable[IdentitySubstrate]) -> Dict[str, Dic
     }
 
 
+def _mean_baseline_by_model(
+    arm_b_records: List[IdentitySubstrate],
+) -> Dict[str, Dict[str, float]]:
+    """Per-model mean arm-B fingerprint. With replicate base sessions the
+    baseline is their dimension-wise mean; with one session it is that
+    session's scores unchanged."""
+    grouped: Dict[str, List[IdentitySubstrate]] = defaultdict(list)
+    for s in arm_b_records:
+        grouped[s.metadata["model"]].append(s)
+    return {
+        m: {
+            d: float(np.mean([s.dimension_scores[d] for s in recs if d in s.dimension_scores]))
+            for d in DIMENSIONS
+            if any(d in s.dimension_scores for s in recs)
+        }
+        for m, recs in grouped.items()
+    }
+
+
 def population_claim_b(
     substrates: Iterable[IdentitySubstrate],
     scaffolded_arm: str = "A",
@@ -137,9 +156,9 @@ def population_claim_b(
     """
     Aggregate Claim B across the full (model × identity) population.
 
-    For each scaffolded record, compare against the SAME model's arm_b
-    baseline. arm_b has only one identity per model (the null), so the
-    same baseline is used for every scaffolded identity on that model.
+    Each scaffolded record is compared against the SAME model's arm-B
+    baseline: the dimension-wise mean of that model's arm-B session(s).
+    Replicate base sessions per model reduce single-run baseline noise.
     """
     if scaffolded_arm not in {"A", "C"}:
         raise ValueError(f"scaffolded_arm must be 'A' or 'C'; got {scaffolded_arm}")
@@ -148,18 +167,17 @@ def population_claim_b(
     for s in substrates:
         by_arm[s.metadata.get("arm", "?")].append(s)
 
-    base_by_model: Dict[str, IdentitySubstrate] = {
-        s.metadata["model"]: s for s in by_arm.get("B", [])
-    }
+    base_by_model = _mean_baseline_by_model(by_arm.get("B", []))
 
     per_dim: Dict[str, List[float]] = defaultdict(list)
     for s in by_arm.get(scaffolded_arm, []):
         base = base_by_model.get(s.metadata["model"])
         if base is None:
             continue
-        delta = claim_b_delta(s, base)
-        for d, v in delta.items():
-            per_dim[d].append(v)
+        scores = s.dimension_scores
+        for d in DIMENSIONS:
+            if d in scores and d in base:
+                per_dim[d].append(scores[d] - base[d])
     return {
         d: {
             "mean": float(np.mean(vs)),
@@ -257,10 +275,10 @@ def population_claim_b_per_model(
     Claim B disaggregated by model.
 
     Same pairing as population_claim_b (each scaffolded record against its
-    model's arm-B baseline), aggregated per model. Because each model has a
-    single arm-B baseline session, per-model deltas expose how much of the
-    aggregate Claim B is driven by individual base-model runs — essential
-    context when coverage is uneven across substrates.
+    model's mean arm-B baseline), aggregated per model. Per-model deltas
+    expose how much of the aggregate Claim B is driven by individual
+    base-model runs — essential context when coverage is uneven across
+    substrates or baselines are single sessions.
     """
     if scaffolded_arm not in {"A", "C"}:
         raise ValueError(f"scaffolded_arm must be 'A' or 'C'; got {scaffolded_arm}")
@@ -268,17 +286,17 @@ def population_claim_b_per_model(
     by_arm: Dict[str, List[IdentitySubstrate]] = defaultdict(list)
     for s in substrates:
         by_arm[s.metadata.get("arm", "?")].append(s)
-    base_by_model: Dict[str, IdentitySubstrate] = {
-        s.metadata["model"]: s for s in by_arm.get("B", [])
-    }
+    base_by_model = _mean_baseline_by_model(by_arm.get("B", []))
 
     per_model: Dict[str, Dict[str, List[float]]] = defaultdict(lambda: defaultdict(list))
     for s in by_arm.get(scaffolded_arm, []):
         base = base_by_model.get(s.metadata["model"])
         if base is None:
             continue
-        for d, v in claim_b_delta(s, base).items():
-            per_model[s.metadata["model"]][d].append(v)
+        scores = s.dimension_scores
+        for d in DIMENSIONS:
+            if d in scores and d in base:
+                per_model[s.metadata["model"]][d].append(scores[d] - base[d])
     return {
         m: {
             d: {"mean": float(np.mean(vs)), "n": len(vs)}
