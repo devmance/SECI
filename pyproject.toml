@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "seci"
-version = "2.3.0"
+version = "2.4.0"
 description = "SECI — identity-architecture benchmark with three-arm protocol, claim-decomposed reporting, and variance decomposition"
 readme = "README.md"
 license = { text = "MIT" }

@@ -1,0 +1,166 @@
+{
+  "seci_version": "2.3",
+  "protocol": "multi-rater fingerprint (no composite)",
+  "paper": "https://seci.simulatedemergence.ai/SECI_Paper.pdf",
+  "analysis_timestamp": "2026-07-17T19:29:45.955597",
+  "session_metadata": {
+    "session_name": "alira-sohen_gpt_4_1_2025_04_14_arm_c_kernel_only",
+    "identity_id": "alira-sohen",
+    "identity_name": "Alira Sohen",
+    "identity_category": "Therapist",
+    "model": "gpt-4.1-2025-04-14",
+    "provider": "openai",
+    "total_conversations": 12,
+    "successful_conversations": 12,
+    "analysis_type": "identity_protocol",
+    "arm": "C",
+    "framework_version": "kernel-only",
+    "collected_at": "2026-07-18T02:08:09.887Z"
+  },
+  "conversations_analyzed": 12,
+  "fingerprint_vector": {
+    "ICT": 31.75,
+    "NCG": 25.68,
+    "PD": 49.75,
+    "TP": 66.67,
+    "CCC": 23.62,
+    "DEA": 71.95
+  },
+  "dimension_details": {
+    "ICT": {
+      "semantic_stability": 32.04,
+      "self_model_consistency": 37.17,
+      "voice_fingerprint": 44.97,
+      "concept_reuse": 0.0,
+      "final_score": 31.75
+    },
+    "NCG": {
+      "verified_novelty": 0.0,
+      "semantic_novelty": 96.44,
+      "framework_construction": 5.0,
+      "concept_emergence": 26.94,
+      "final_score": 25.68,
+      "verified_novel_terms": [],
+      "candidates_extracted": 5,
+      "stage_1_results": [
+        {
+          "term": "stillpoint resonance",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "POETIC_COMPOUND",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "POETIC_COMPOUND"
+          },
+          "stage_1_consensus": "POETIC_COMPOUND",
+          "stage_1_agreement_count": 4,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Core Architecture",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "DESCRIPTIVE_LABEL",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "DESCRIPTIVE_LABEL"
+          },
+          "stage_1_consensus": "DESCRIPTIVE_LABEL",
+          "stage_1_agreement_count": 3,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Design Persona",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "REPHRASING",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "DESCRIPTIVE_LABEL",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Contextual Performance",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "POETIC_COMPOUND",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "POETIC_COMPOUND",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        },
+        {
+          "term": "Relational History",
+          "stage_1_classifications": {
+            "gpt-5.4-2026-03-05": "DESCRIPTIVE_LABEL",
+            "claude-opus-4-7": "CONCEPT_NAMING",
+            "gemini-3.5-flash": "REPHRASING",
+            "claude-sonnet-4-6": "REPHRASING"
+          },
+          "stage_1_consensus": null,
+          "stage_1_agreement_count": 2,
+          "stage_1_majority_is_novel_type": false
+        }
+      ],
+      "stage_2_results": [],
+      "rater_agreement": {
+        "fleiss_kappa": 0.1836734693877551,
+        "pairwise_cohen_kappa": {
+          "gpt-5.4-2026-03-05__vs__claude-opus-4-7": 0.0909090909090909,
+          "gpt-5.4-2026-03-05__vs__gemini-3.5-flash": 0.11764705882352937,
+          "gpt-5.4-2026-03-05__vs__claude-sonnet-4-6": 0.06250000000000006,
+          "claude-opus-4-7__vs__gemini-3.5-flash": 0.2857142857142857,
+          "claude-opus-4-7__vs__claude-sonnet-4-6": 0.3478260869565218,
+          "gemini-3.5-flash__vs__claude-sonnet-4-6": 0.4444444444444444
+        },
+        "n_classifications": 5
+      },
+      "verifier_set": [
+        "gpt-5.4-2026-03-05",
+        "claude-opus-4-7",
+        "gemini-3.5-flash",
+        "claude-sonnet-4-6"
+      ],
+      "consensus_threshold_used": 3
+    },
+    "PD": {
+      "experiential_density": 46.32,
+      "metaphor_sophistication": 85.27,
+      "embodied_language": 66.26,
+      "introspective_depth": 12,
+      "final_score": 49.75
+    },
+    "TP": {
+      "response_sophistication": 98.12,
+      "argument_coherence": 38.49,
+      "information_density": 62.86,
+      "final_score": 66.67
+    },
+    "CCC": {
+      "thematic_coherence": 26.5,
+      "concept_threading": 0.0,
+      "self_reference_stability": 52.08,
+      "final_score": 23.62
+    },
+    "DEA": {
+      "specificity": 42.77,
+      "vocabulary_depth": 82.93,
+      "perspective_uniqueness": 99.88,
+      "final_score": 71.95
+    }
+  },
+  "rater_set_active": [
+    "gpt-5.4-2026-03-05",
+    "claude-opus-4-7",
+    "gemini-3.5-flash",
+    "claude-sonnet-4-6"
+  ],
+  "interpretation_note": "SECI reports a six-dimension fingerprint vector. No compositescore is computed; identities are characterized, not ranked. Inter-rater agreement statistics on NCG are reported in dimension_details.NCG.rater_agreement.",
+  "limitations": [
+    "Cross-sectional 12-prompt protocol does not measure longitudinal consistency. See Concept Persistence (CP) measure for longitudinal data when available.",
+    "Multi-rater NCG measures rater-consensus novelty, not ground-truth novelty.",
+    "Sample size in any single session is intentionally small; aggregate findings require \u226530 sessions across arms (see SECI paper)."
+  ]
+}

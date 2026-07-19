@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Regenerate the three SECI v2.2 paper figures from the published
+Regenerate the three SECI paper figures from the published
 validation outputs.
 
   fig1_three_claims            — Claim A / Claim B paired deltas (bars ± SD)
@@ -185,15 +185,17 @@ def fig3_fingerprint_stability(fps: dict, out_dir: Path, discriminant: dict | No
     n_pairs = fps["n_pairs"]
     pct_above = fps["pct_above_0.7"]
 
-    fig = plt.figure(figsize=(7.9, 3.8))
+    n_ids = len(order)
+    fig_height = max(3.8, 3.8 + 0.26 * (n_ids - 11))  # scale with bar count
+    fig = plt.figure(figsize=(7.9, fig_height))
     gs = fig.add_gridspec(1, 2, width_ratios=[1.55, 1.0], wspace=0.42)
 
     ax = fig.add_subplot(gs[0])
-    y = np.arange(len(order))
+    y = np.arange(n_ids)
     ax.barh(y, values, height=0.72, color=COLOR_CLAIM_A)
     ax.set_yticks(y)
     ax.set_yticklabels(order)
-    ax.set_ylim(len(order) + 0.15, -0.55)  # inverted; bottom strip for legend
+    ax.set_ylim(n_ids + 1.05, -0.55)  # inverted; bottom strip for legend
     ax.set_xlim(0, 1.0)
     ax.set_xlabel("Mean Pearson r across model pairs")
     ax.set_title("Per-identity (sorted)", loc="left", fontsize=12.5)

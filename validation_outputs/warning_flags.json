@@ -1,8 +1,7 @@
 {
   "warnings": [
-    "NCG: between-model SD (14.12) exceeds between-identity SD (10.25) at 1.38\u00d7 \u2014 variance on this dimension primarily reflects model-architecture differences rather than identity differences.",
-    "TP: between-model SD (2.42) exceeds between-identity SD (1.58) at 1.53\u00d7 \u2014 variance on this dimension primarily reflects model-architecture differences rather than identity differences.",
-    "NCG: cross-model identity-ranking r = -0.016 (near zero) \u2014 identity rankings on this dimension do not replicate across model architectures.",
-    "DEA: cross-model identity-ranking r = +0.069 (near zero) \u2014 identity rankings on this dimension do not replicate across model architectures."
+    "NCG: between-model SD (12.94) exceeds between-identity SD (9.76) at 1.33\u00d7 \u2014 variance on this dimension primarily reflects model-architecture differences rather than identity differences.",
+    "TP: between-model SD (2.40) exceeds between-identity SD (1.62) at 1.48\u00d7 \u2014 variance on this dimension primarily reflects model-architecture differences rather than identity differences.",
+    "NCG: cross-model identity-ranking r = -0.006 (near zero) \u2014 identity rankings on this dimension do not replicate across model architectures."
   ]
 }

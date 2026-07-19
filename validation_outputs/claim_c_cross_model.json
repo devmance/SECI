@@ -1,6 +1,6 @@
 {
   "ICT": {
-    "mean_r": 0.41343985754719703,
+    "mean_r": 0.4134059133246423,
     "median_r": 0.5272211486498297,
     "n_pairs": 21,
     "pct_positive": 95.23809523809523,
@@ -8,43 +8,43 @@
     "verdict": "modest"
   },
   "NCG": {
-    "mean_r": -0.0159158369218733,
-    "median_r": 0.07303640326212142,
+    "mean_r": -0.0055778612142709915,
+    "median_r": 0.03793296395324218,
     "n_pairs": 21,
-    "pct_positive": 57.14285714285714,
-    "pct_strong_positive": 19.047619047619047,
+    "pct_positive": 52.38095238095239,
+    "pct_strong_positive": 14.285714285714285,
     "verdict": "chance"
   },
   "PD": {
-    "mean_r": 0.36935069505249923,
-    "median_r": 0.40669244042783614,
+    "mean_r": 0.33902356389317506,
+    "median_r": 0.41267599617447764,
     "n_pairs": 21,
     "pct_positive": 76.19047619047619,
-    "pct_strong_positive": 42.857142857142854,
+    "pct_strong_positive": 33.33333333333333,
     "verdict": "modest"
   },
   "TP": {
-    "mean_r": 0.735993040883165,
-    "median_r": 0.7526304220922296,
+    "mean_r": 0.7737434770624825,
+    "median_r": 0.8071766890877461,
     "n_pairs": 21,
     "pct_positive": 100.0,
-    "pct_strong_positive": 95.23809523809523,
+    "pct_strong_positive": 100.0,
     "verdict": "substrate-portable"
   },
   "CCC": {
-    "mean_r": 0.24471091222525157,
-    "median_r": 0.27769577009840063,
+    "mean_r": 0.3224310253896178,
+    "median_r": 0.28158371559821477,
     "n_pairs": 21,
-    "pct_positive": 66.66666666666666,
-    "pct_strong_positive": 33.33333333333333,
-    "verdict": "weak"
+    "pct_positive": 85.71428571428571,
+    "pct_strong_positive": 28.57142857142857,
+    "verdict": "modest"
   },
   "DEA": {
-    "mean_r": 0.06878028352861251,
-    "median_r": 0.07577941195443849,
+    "mean_r": 0.15426443685870295,
+    "median_r": 0.20311833852488698,
     "n_pairs": 21,
-    "pct_positive": 57.14285714285714,
-    "pct_strong_positive": 19.047619047619047,
-    "verdict": "chance"
+    "pct_positive": 61.904761904761905,
+    "pct_strong_positive": 28.57142857142857,
+    "verdict": "weak"
   }
 }
